@@ -1,7 +1,7 @@
 var sys = require("sys");
 var store = require("./store");
 
-var myFileStore = new store.Store("/Users/syco/Desktop/test");
+var myFileStore = new store.FileStore("/Users/syco/Desktop/test");
 
 var key = "foo"
 var value = "bar";

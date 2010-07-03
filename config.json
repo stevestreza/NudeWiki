@@ -1,6 +1,6 @@
 {
 	"port": 8082,
-	"template": "test",
+	"template": "blank",
 	"store": {
 		"type": "file",
 		"path": "/Users/syco/Desktop/test"

@@ -1,0 +1,6 @@
+{
+	store: {
+		type: "file",
+		path: "/Users/syco/Desktop/test"
+	}
+}

@@ -26,4 +26,10 @@ Store.prototype.deleteValueForKey = function(key, cb){
 	if(cb) cb();
 }
 
+// config loading
+Store.configKey = "memory";
+Store.loadFromConfig = function(config){
+	return new Store();
+}
+
 exports.Store = Store;
